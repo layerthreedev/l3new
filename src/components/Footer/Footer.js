@@ -33,9 +33,9 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
+                href="/about-us"
                 className={classes.block}
-                target="_blank"
+                // target="_blank"
               >
                 Creative Tim
               </a>
@@ -83,6 +83,7 @@ export default function Footer(props) {
         </div>
       </div>
     </footer>
+
   );
 }
 

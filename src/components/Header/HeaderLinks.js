@@ -48,7 +48,7 @@ export default function HeaderLinks(props) {
                         className={classes.navLink}
                     >
                         <Business className={classes.icons} />
-                        About Us
+                        Know Us
                     </Button>
                 </Link>
             </ListItem>
@@ -71,19 +71,13 @@ export default function HeaderLinks(props) {
                                 Cloud Solutions
                             </Link>,
                             <Link to="/" className={classes.dropdownLink}>
-                                Voip Solutions
-                            </Link>,
-                            <Link to="/" className={classes.dropdownLink}>
                                 Network Security
                             </Link>,
                             <Link to="/" className={classes.dropdownLink}>
-                                Network Implementation
-                            </Link>,
-                            <Link to="/" className={classes.dropdownLink}>
-                                IT Contracting
-                            </Link>,
-                            <Link to="/" className={classes.dropdownLink}>
                                 IT Helpdesk
+                            </Link>,
+                            <Link to="/" className={classes.dropdownLink}>
+                                Voip Solutions
                             </Link>,
                             <Link to="/" className={classes.dropdownLink}>
                                 Web Development
@@ -101,8 +95,7 @@ export default function HeaderLinks(props) {
                     >
 
                         <Phone className={classes.icons} />
-                        Contact Us
-
+                        Contact
                     </Button>
                     <span className={classes.phoneNumber}>(306)808-0202</span>
                 </Link>

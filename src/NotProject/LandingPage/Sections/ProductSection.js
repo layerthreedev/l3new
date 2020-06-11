@@ -12,6 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles(styles);
 
@@ -21,43 +22,76 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
-          <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
-          </h5>
+          {/*<h2 className={classes.title}>Let{"'"}s talk product</h2>*/}
+          {/*<h5 className={classes.description}>*/}
+          {/*  This is the paragraph where you can write more details about your*/}
+          {/*  product. Keep you user engaged by providing meaningful information.*/}
+          {/*  Remember that by this time, the user is curious, otherwise he wouldn*/}
+          {/*  {"'"}t scroll to get here. Add a button if you want the user to see*/}
+          {/*  more.*/}
+          {/*</h5>*/}
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Managed IT Services"
+              description="Control your content and build beautiful, powerful solutions for your business."
               icon={Chat}
+              image={require ("assets/img/circle-web.png")}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Cloud Solutions"
+              description="Scale faster and more efficiently with leading-edge technology solutions designed specifically for your business."
               icon={VerifiedUser}
+              image={require ("assets/img/circle-business.png")}
               iconColor="success"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Network Security"
+              description="Enhance and maintain core infrastructure platforms to serve as strong foundations for everyday applications and services."
               icon={Fingerprint}
+              image={require ("assets/img/circle-residential.png")}
               iconColor="danger"
               vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+                title="IT Helpdesk"
+                description="Control your content and build beautiful, powerful solutions for your business."
+                icon={Chat}
+                image={require ("assets/img/circle-web.png")}
+                iconColor="info"
+                vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+                title="Voip Solutions"
+                description="Scale faster and more efficiently with leading-edge technology solutions designed specifically for your business."
+                icon={VerifiedUser}
+                image={require ("assets/img/circle-business.png")}
+                iconColor="success"
+                vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+                title="Web Development"
+                description="Enhance and maintain core infrastructure platforms to serve as strong foundations for everyday applications and services."
+                icon={Fingerprint}
+                image={require ("assets/img/circle-residential.png")}
+                iconColor="danger"
+                vertical
             />
           </GridItem>
         </GridContainer>
