@@ -8,7 +8,6 @@ import Footer from "components/Footer/Footer.js";
 
 import styles from "assets/jss/material-kit-react/views/loginPage.js";
 
-import image from "assets/img/bg7.jpg";
 import Parallax from "../../components/Parallax/Parallax";
 
 const useStyles = makeStyles(styles);

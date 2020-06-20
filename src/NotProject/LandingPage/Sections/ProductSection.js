@@ -39,7 +39,7 @@ export default function ProductSection() {
               title="Managed IT Services"
               description="Control your content and build beautiful, powerful solutions for your business."
               icon={Chat}
-              image={require ("assets/img/circle-web.png")}
+              image={require ("assets/img/circle-web.svg")}
               iconColor="info"
               vertical
             />
@@ -49,7 +49,7 @@ export default function ProductSection() {
               title="Cloud Solutions"
               description="Scale faster and more efficiently with leading-edge technology solutions designed specifically for your business."
               icon={VerifiedUser}
-              image={require ("assets/img/circle-business.png")}
+              image={require ("assets/img/circle-business.svg")}
               iconColor="success"
               vertical
             />
@@ -59,7 +59,7 @@ export default function ProductSection() {
               title="Network Security"
               description="Enhance and maintain core infrastructure platforms to serve as strong foundations for everyday applications and services."
               icon={Fingerprint}
-              image={require ("assets/img/circle-residential.png")}
+              image={require ("assets/img/circle-residential.svg")}
               iconColor="danger"
               vertical
             />
@@ -69,7 +69,7 @@ export default function ProductSection() {
                 title="IT Helpdesk"
                 description="Control your content and build beautiful, powerful solutions for your business."
                 icon={Chat}
-                image={require ("assets/img/circle-web.png")}
+                image={require ("assets/img/circle-web.svg")}
                 iconColor="info"
                 vertical
             />
@@ -79,7 +79,7 @@ export default function ProductSection() {
                 title="Voip Solutions"
                 description="Scale faster and more efficiently with leading-edge technology solutions designed specifically for your business."
                 icon={VerifiedUser}
-                image={require ("assets/img/circle-business.png")}
+                image={require ("assets/img/circle-business.svg")}
                 iconColor="success"
                 vertical
             />
@@ -89,7 +89,7 @@ export default function ProductSection() {
                 title="Web Development"
                 description="Enhance and maintain core infrastructure platforms to serve as strong foundations for everyday applications and services."
                 icon={Fingerprint}
-                image={require ("assets/img/circle-residential.png")}
+                image={require ("assets/img/circle-residential.svg")}
                 iconColor="danger"
                 vertical
             />
